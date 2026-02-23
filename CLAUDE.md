@@ -26,7 +26,7 @@ No test suite is configured.
 
 **Components** (`components/`):
 - `Header` — sticky nav with anchor links (`/#guide`, `/#insights`, `/#about`, `/#contact`)
-- `Footer` — disclaimer, Privacy/Terms links, ABN placeholder
+- `Footer` — disclaimer, Privacy/Terms links
 - `NewsletterForm` — client component; currently only client-side state (no backend integration)
 - `CookieConsent` — client component; stores acceptance in `localStorage` under key `ari_cookie_consent`
 
@@ -44,7 +44,6 @@ Styling uses a hybrid approach — **do not introduce a third approach**:
 
 - **Meta Pixel** — script is in `layout.tsx` but `fbq('init', ...)` calls are commented out; replace `YOUR_PIXEL_ID` to activate
 - **Newsletter form** — `NewsletterForm.tsx` submits locally only; needs a real endpoint (e.g. Mailchimp, ConvertKit)
-- **ABN** — placeholder `XX XXX XXX XXX` in `Footer.tsx`
 - **Facebook domain verification** — commented out in `layout.tsx` `metadata.other`
 
 ## SEO

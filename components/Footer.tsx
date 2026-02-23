@@ -58,18 +58,6 @@ export default function Footer() {
             {' '}· © {new Date().getFullYear()} All rights reserved.
           </div>
         </div>
-
-        {/* ABN — replace with your actual Australian Business Number */}
-        <div
-          style={{
-            marginTop: 12,
-            fontSize: 11,
-            color: 'var(--text-light)',
-            letterSpacing: '0.02em',
-          }}
-        >
-          ABN: 28 740 788 950
-        </div>
       </div>
     </footer>
   );
