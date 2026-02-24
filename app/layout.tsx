@@ -1,6 +1,23 @@
 import type { Metadata } from 'next';
+import { Libre_Baskerville, Source_Sans_3 } from 'next/font/google';
+import Script from 'next/script';
 import './globals.css';
 import CookieConsent from '@/components/CookieConsent';
+
+const displayFont = Libre_Baskerville({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  style: ['normal', 'italic'],
+  variable: '--font-libre-baskerville',
+  display: 'swap',
+});
+
+const bodyFont = Source_Sans_3({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
+  variable: '--font-source-sans-3',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://aussierateinsights.com'),
@@ -12,7 +29,7 @@ export const metadata: Metadata = {
     'Australian finance blog covering term deposits, fixed income, savings rates, RBA interest rate decisions, bank comparisons, and retirement planning.',
   icons: {
     icon: '/favicon.png',
-    apple: '/favicon.png',
+    apple: '/apple-touch-icon.png',
   },
   openGraph: {
     siteName: 'Aussie Rate Insights',
@@ -42,35 +59,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en-AU">
-      <head>
-        {/* CLOAKERLY — Paste your Cloakerly campaign JS snippet below */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              // CLOAKERLY: Replace this comment with the JS snippet from
-              // Cloakerly dashboard > Your Campaign > Get Code
-            `,
-          }}
-        />
+    <html lang="en-AU" className={`${displayFont.variable} ${bodyFont.variable}`}>
+      <body>
+        {children}
+        <CookieConsent />
+
+        {/* CLOAKERLY — Replace with your campaign snippet */}
+        <Script id="cloakerly" strategy="afterInteractive">
+          {`// CLOAKERLY: Replace this comment with the JS snippet from Cloakerly dashboard`}
+        </Script>
 
         {/* META PIXEL */}
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              !function(f,b,e,v,n,t,s)
-              {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-              n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-              if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-              n.queue=[];t=b.createElement(e);t.async=!0;
-              t.src=v;s=b.getElementsByTagName(e)[0];
-              s.parentNode.insertBefore(t,s)}(window, document,'script',
-              'https://connect.facebook.net/en_US/fbevents.js');
-              fbq('init', '898957016237130');
-              fbq('track', 'PageView');
-            `,
-          }}
-        />
+        <Script id="meta-pixel" strategy="afterInteractive">
+          {`!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','898957016237130');fbq('track','PageView');`}
+        </Script>
         <noscript>
           <img
             height="1"
@@ -79,10 +81,6 @@ export default function RootLayout({
             src="https://www.facebook.com/tr?id=898957016237130&ev=PageView&noscript=1"
           />
         </noscript>
-      </head>
-      <body>
-        {children}
-        <CookieConsent />
       </body>
     </html>
   );

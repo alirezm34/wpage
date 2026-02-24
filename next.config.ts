@@ -1,8 +1,11 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  // Enable static export capability if needed
-  // output: 'export',
+  images: {
+    formats: ['image/avif', 'image/webp'],
+    deviceSizes: [640, 900, 1120, 1920],
+    imageSizes: [80, 120, 200, 400, 800],
+  },
 };
 
 export default nextConfig;

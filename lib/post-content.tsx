@@ -4,6 +4,232 @@ import Image from 'next/image';
 type ContentMap = Record<string, React.ReactNode>;
 
 export const postContent: ContentMap = {
+  'term-deposit-rates-2025-compare-40-banks': (
+    <>
+      <p>
+        Australia&apos;s term deposit market is more competitive than many savers realise. With{' '}
+        <strong>40+ banks</strong>, credit unions, and building societies offering term deposit
+        products, the range of available rates is wide — and in early 2025, some providers are
+        advertising rates as high as <strong>7.8% P.A.</strong> on selected terms and conditions.
+      </p>
+      <p>
+        For savers looking to <strong>lock in rates</strong> before potential RBA cuts take effect,
+        understanding how to compare across this many providers is essential. The good news is that
+        modern comparison tools make it faster than ever — in many cases, you can check current
+        rates in under <strong>60 seconds</strong>.
+      </p>
+
+      <h2>Why There Are 40+ Providers to Compare</h2>
+      <p>
+        Australia&apos;s banking sector includes the four major banks, regional banks, customer-owned
+        institutions (credit unions and mutual banks), and online-only providers. All authorised
+        deposit-taking institutions (ADIs) are regulated by APRA, and deposits with these{' '}
+        <strong>40+ banks</strong> and institutions are eligible for the government&apos;s $250,000
+        deposit protection scheme.
+      </p>
+      <p>
+        This diversity is good for savers. Competition between providers means that smaller
+        institutions frequently offer higher <strong>savings rates</strong> and more attractive{' '}
+        <strong>term deposit</strong> pricing than the big four. Online-only banks, with lower
+        overhead costs, are often at the top of rate tables — sometimes offering rates approaching{' '}
+        <strong>7.8% P.A.</strong> on promotional or longer-term products.
+      </p>
+      <p>
+        The challenge is that rates change frequently, particularly around <strong>RBA</strong>{' '}
+        decisions. A rate that was market-leading last month may have been quietly reduced. This is
+        why regular comparison across the full field of providers matters.
+      </p>
+
+      <h2>Lock In Rates Before They Fall</h2>
+      <p>
+        When the <strong>RBA</strong> signals potential <strong>rate cuts</strong>, many savers rush
+        to <strong>lock in rates</strong> on longer-term deposits. The logic is straightforward: a{' '}
+        <strong>term deposit</strong> locked in today at a higher rate will continue paying that rate
+        even if the RBA cuts the cash rate multiple times during the term.
+      </p>
+      <p>
+        In 2025, with market expectations pointing toward further easing, the window to{' '}
+        <strong>lock in rates</strong> at current levels may not remain open indefinitely. Savers who
+        locked in 12- to 24-month terms in late 2024 are already benefiting from rates higher than
+        what is currently available on new deposits at some institutions.
+      </p>
+      <p>
+        Of course, locking in also means reduced flexibility. If rates unexpectedly rise, you
+        won&apos;t benefit until your term matures. A laddering strategy — splitting funds across
+        multiple terms — can help balance rate certainty with regular reinvestment opportunities.
+      </p>
+
+      <h2>Using a Free Calculator to Compare</h2>
+      <p>
+        One of the easiest ways to compare <strong>term deposit</strong> offerings across{' '}
+        <strong>40+ banks</strong> is to use a <strong>free tool</strong> or online{' '}
+        <strong>calculator</strong> designed for this purpose. Several Australian comparison websites
+        offer <strong>free calculator</strong> tools that let you input your deposit amount, preferred
+        term, and interest payment frequency to see projected returns across multiple providers.
+      </p>
+      <p>
+        Most of these tools are simple enough that you can check and compare rates in under{' '}
+        <strong>60 seconds</strong>. They pull live or recently updated rate data from providers,
+        making it easy to spot which institutions are currently offering the most competitive{' '}
+        <strong>interest rates</strong> — including those advertising up to{' '}
+        <strong>7.8% P.A.</strong> on specific products.
+      </p>
+      <p>
+        When using any comparison <strong>free tool</strong>, keep these tips in mind:
+      </p>
+      <ul>
+        <li>
+          Check whether the displayed rate is a base rate, a promotional rate, or subject to
+          conditions (such as a minimum deposit amount).
+        </li>
+        <li>
+          Confirm the provider is an APRA-regulated ADI so your deposit is covered by the{' '}
+          <strong>$250K protection</strong> scheme.
+        </li>
+        <li>
+          Compare the effective annual rate, not just the nominal rate — payment frequency affects
+          your actual return.
+        </li>
+        <li>
+          Note any early withdrawal penalties, as these vary significantly between providers.
+        </li>
+      </ul>
+
+      <h2>Making the Most of Current Rates</h2>
+      <p>
+        With <strong>interest rates</strong> in 2025 still elevated by historical standards, now is a
+        good time for savers to review their options. Whether you are looking to{' '}
+        <strong>lock in rates</strong> for the long term or simply want to ensure your existing{' '}
+        <strong>savings account</strong> is still competitive, a quick comparison using a{' '}
+        <strong>free tool</strong> can reveal opportunities you might otherwise miss.
+      </p>
+      <p>
+        The Australian market&apos;s breadth — with <strong>40+ banks</strong> and institutions
+        competing for deposits — means that the best rate for your situation is rarely at the first
+        place you look. Take <strong>60 seconds</strong> to compare, and you may find rates
+        significantly better than what your current provider offers.
+      </p>
+
+      <blockquote>
+        Rates quoted are examples based on publicly available information at the time of writing and
+        may have changed. Always confirm current rates directly with the provider before making a
+        decision.
+      </blockquote>
+    </>
+  ),
+
+  'australian-families-government-protected-deposits': (
+    <>
+      <p>
+        Term deposits have long been one of Australia&apos;s most trusted savings products. An
+        estimated <strong>180,000+ Australian families</strong> hold term deposits as a core part of
+        their savings strategy — drawn by the combination of predictable income, capital
+        preservation, and the safety net of government-backed deposit protection.
+      </p>
+      <p>
+        For many of these families, the appeal is simple: <strong>term deposits</strong> offer what
+        are widely considered <strong>guaranteed returns</strong> — a fixed{' '}
+        <strong>interest rate</strong> locked in for the term of the deposit, with principal returned
+        at maturity. When combined with the fact that eligible deposits are{' '}
+        <strong>government protected</strong> under the Financial Claims Scheme, it&apos;s easy to
+        see why term deposits remain a cornerstone of conservative Australian portfolios.
+      </p>
+
+      <h2>What &ldquo;Government Protected&rdquo; Actually Means</h2>
+      <p>
+        When Australians say their deposits are <strong>government protected</strong>, they are
+        typically referring to the Financial Claims Scheme (FCS) administered by APRA. This scheme
+        protects deposits of up to <strong>$250,000</strong> per account holder, per authorised
+        deposit-taking institution (ADI).
+      </p>
+      <p>
+        The <strong>government protected</strong> framework covers a broad range of deposit products
+        — including <strong>term deposits</strong>, savings accounts, and transaction accounts —
+        held with banks, credit unions, and building societies that are regulated by APRA. If an ADI
+        were to fail, the FCS is designed to ensure eligible depositors receive their protected funds
+        promptly.
+      </p>
+      <p>
+        This protection is a key reason why <strong>180,000+ Australian families</strong> choose
+        deposits over other <strong>fixed income</strong> products. Unlike bonds or managed funds,
+        where the market value can fluctuate, a <strong>government protected</strong> term deposit
+        provides certainty of both return and principal — within the $250,000 cap.
+      </p>
+
+      <h2>Are Term Deposit Returns Truly Guaranteed?</h2>
+      <p>
+        The phrase <strong>guaranteed returns</strong> is commonly used when discussing term deposits,
+        and in practice, the description is largely accurate: when you open a{' '}
+        <strong>term deposit</strong> with an ADI, you agree to a fixed rate for a set period, and
+        the provider is contractually obligated to pay that rate.
+      </p>
+      <p>
+        However, it is worth understanding the nuances. The &ldquo;guarantee&rdquo; relies on:
+      </p>
+      <ul>
+        <li>
+          <strong>The provider&apos;s solvency:</strong> your returns are paid by the institution.
+          If the ADI were to fail, the <strong>$250K protection</strong> scheme is the backstop.
+        </li>
+        <li>
+          <strong>Holding to maturity:</strong> if you withdraw early, most providers reduce the
+          interest paid or charge break costs — meaning your effective return may be lower than the
+          quoted <strong>guaranteed returns</strong> figure.
+        </li>
+        <li>
+          <strong>Inflation risk:</strong> while the nominal return is fixed, the real
+          (inflation-adjusted) return depends on the rate of inflation during the term.
+        </li>
+      </ul>
+      <p>
+        For the vast majority of depositors with APRA-regulated institutions, <strong>term
+        deposits</strong> deliver exactly the <strong>guaranteed returns</strong> they promise. The{' '}
+        <strong>government protected</strong> safety net adds an additional layer of assurance that
+        makes these products particularly attractive for retirees and conservative savers.
+      </p>
+
+      <h2>Who Are These 180,000+ Families?</h2>
+      <p>
+        The <strong>180,000+ Australian families</strong> who hold term deposits span a wide
+        demographic range, but several groups are particularly well represented:
+      </p>
+      <ul>
+        <li>
+          <strong>Retirees and pre-retirees:</strong> families approaching or in{' '}
+          <strong>retirement</strong> who prioritise capital preservation and predictable income
+          over growth.
+        </li>
+        <li>
+          <strong>Conservative savers:</strong> those who prefer the certainty of{' '}
+          <strong>guaranteed returns</strong> over the volatility of shares or property.
+        </li>
+        <li>
+          <strong>Large-balance depositors:</strong> families with significant savings who
+          spread funds across multiple ADIs to maximise <strong>$250K protection</strong>{' '}
+          coverage.
+        </li>
+        <li>
+          <strong>Goal-oriented savers:</strong> families setting aside money for a specific purpose
+          — a home deposit, education costs, or a major purchase — where certainty of the final
+          amount matters.
+        </li>
+      </ul>
+      <p>
+        What unites these groups is a preference for simplicity and safety. In a market where
+        investment products can be complex and returns uncertain, a{' '}
+        <strong>government protected</strong> deposit with <strong>guaranteed returns</strong> offers
+        a straightforward proposition: you know what you&apos;ll earn, and you know your capital is
+        safe.
+      </p>
+
+      <blockquote>
+        The $250,000 per-person, per-ADI cap is a general reference to the Financial Claims Scheme
+        as commonly discussed. Always confirm specific eligibility and current scheme details
+        through official APRA sources.
+      </blockquote>
+    </>
+  ),
+
   'how-term-deposits-work': (
     <>
       <p>
@@ -100,7 +326,7 @@ export const postContent: ContentMap = {
 
       <figure>
         <Image
-          src="/images/rba-building.jpg"
+          src="/images/rba-building.webp"
           alt="Classical Australian institutional building exterior representing the Reserve Bank of Australia"
           width={1587}
           height={2245}
@@ -297,7 +523,7 @@ export const postContent: ContentMap = {
 
       <figure>
         <Image
-          src="/images/retirement-planning.jpg"
+          src="/images/retirement-planning.webp"
           alt="Couple reviewing financial documents and planning for retirement"
           width={1587}
           height={2245}

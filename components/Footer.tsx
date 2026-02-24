@@ -28,6 +28,7 @@ export default function Footer() {
                 alt="Aussie Rate Insights"
                 width={200}
                 height={32}
+                sizes="200px"
                 style={{ height: 32, width: 'auto' }}
               />
             </Link>

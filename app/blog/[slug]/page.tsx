@@ -6,7 +6,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import PostCard from '@/components/PostCard';
 import Sidebar from '@/components/Sidebar';
-import { getPostBySlug, getRelatedPosts, getAllSlugs, formatDate } from '@/lib/posts';
+import { getPostBySlug, getRelatedPosts, getAllSlugs, formatDate, getCategoryStyle } from '@/lib/posts';
 import { postContent } from '@/lib/post-content';
 
 interface Props {
@@ -49,6 +49,7 @@ export default async function BlogPost({ params }: Props) {
 
   const content = postContent[slug];
   const related = getRelatedPosts(slug, 2);
+  const categoryColors = getCategoryStyle(post.category);
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -94,7 +95,12 @@ export default async function BlogPost({ params }: Props) {
             {/* Post header */}
             <div style={{ marginBottom: 28 }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 12 }}>
-                <span className="category-pill">{post.category}</span>
+                <span
+                  className="category-pill"
+                  style={{ background: categoryColors.bg, color: categoryColors.text }}
+                >
+                  {post.category}
+                </span>
                 <span className="dateline">
                   {formatDate(post.date)} &middot; {post.readingTime} min read
                 </span>
@@ -131,8 +137,9 @@ export default async function BlogPost({ params }: Props) {
             <Image
               src={post.image}
               alt={post.imageAlt}
-              width={1587}
-              height={2245}
+              width={1200}
+              height={800}
+              sizes="(max-width: 900px) 100vw, 720px"
               priority
               style={{
                 width: '100%',

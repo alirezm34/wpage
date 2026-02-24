@@ -21,7 +21,67 @@ export const CATEGORIES = [
   'Savings',
 ] as const;
 
+export const CATEGORY_COLORS: Record<string, { bg: string; text: string; hover: string }> = {
+  'Term Deposits':      { bg: '#E8F0FE', text: '#1A56DB', hover: '#1A56DB' },
+  'Interest Rates':     { bg: '#FCECEA', text: '#C0392B', hover: '#C0392B' },
+  'Fixed Income':       { bg: '#E6F5F0', text: '#0F7B5F', hover: '#0F7B5F' },
+  'Deposit Protection': { bg: '#FEF3E2', text: '#B45309', hover: '#B45309' },
+  'Retirement Planning':{ bg: '#F0EBFE', text: '#6D28D9', hover: '#6D28D9' },
+  'Banking':            { bg: '#E8EEF4', text: '#1B2A38', hover: '#1B2A38' },
+  'Savings':            { bg: '#E8FBF0', text: '#15803D', hover: '#15803D' },
+};
+
+export function getCategoryStyle(category: string) {
+  return CATEGORY_COLORS[category] ?? { bg: '#FCECEA', text: '#C0392B', hover: '#C0392B' };
+}
+
 export const posts: Post[] = [
+  {
+    slug: 'term-deposit-rates-2025-compare-40-banks',
+    title: 'Australian Term Deposit Rates in 2025: Comparing 40+ Banks',
+    excerpt:
+      'With 40+ banks offering term deposits in Australia, rates vary widely — some as high as 7.8% P.A. on selected terms. Here\u2019s how to compare and lock in rates using free online tools.',
+    date: '2025-02-18',
+    category: 'Term Deposits',
+    image: '/images/bank-comparison.webp',
+    imageAlt:
+      'Modern Australian bank branch exterior representing the wide range of banks offering term deposits',
+    readingTime: 6,
+    keywords: [
+      'term deposits',
+      '7.8% P.A.',
+      '40+ banks',
+      'lock in rates',
+      'calculator',
+      'free tool',
+      'bank comparison',
+      'interest rates',
+    ],
+    metaDescription:
+      'Compare term deposit rates across 40+ Australian banks in 2025. Learn how to lock in rates as high as 7.8% P.A. using free comparison tools in under 60 seconds.',
+  },
+  {
+    slug: 'australian-families-government-protected-deposits',
+    title: 'Why 180,000+ Australian Families Choose Government-Protected Deposits',
+    excerpt:
+      'An estimated 180,000+ Australian families hold term deposits as a core savings strategy. Here\u2019s why government-protected deposits with guaranteed returns remain so popular.',
+    date: '2025-02-14',
+    category: 'Deposit Protection',
+    image: '/images/apra-regulation.webp',
+    imageAlt:
+      'Australian government building representing APRA regulation and deposit protection',
+    readingTime: 5,
+    keywords: [
+      '180,000+ Australian families',
+      'government protected',
+      'guaranteed returns',
+      'term deposits',
+      '$250K protection',
+      'Financial Claims Scheme',
+    ],
+    metaDescription:
+      'Why 180,000+ Australian families trust government-protected term deposits for guaranteed returns. Understand the Financial Claims Scheme and $250K deposit protection.',
+  },
   {
     slug: 'how-term-deposits-work',
     title: 'How Term Deposits Work in Australian Banks',
@@ -29,7 +89,7 @@ export const posts: Post[] = [
       'A plain-English guide to term deposit products offered by Australian banks, credit unions, and building societies — covering terms, rates, and what to compare.',
     date: '2025-02-10',
     category: 'Term Deposits',
-    image: '/images/rba-building.jpg',
+    image: '/images/rba-building.webp',
     imageAlt:
       'Classical Australian institutional building exterior representing the banking sector',
     readingTime: 6,
@@ -50,7 +110,7 @@ export const posts: Post[] = [
       'How the Reserve Bank of Australia sets the cash rate and why its decisions ripple through savings accounts, term deposits, and the broader economy.',
     date: '2025-02-08',
     category: 'Interest Rates',
-    image: '/images/rba-cash-rate.jpg',
+    image: '/images/rba-cash-rate.webp',
     imageAlt:
       'Reserve Bank of Australia building at dusk representing monetary policy decisions',
     readingTime: 5,
@@ -71,7 +131,7 @@ export const posts: Post[] = [
       'High-interest savings accounts vs term deposits vs bonds — a general comparison framework for Australian savers looking at fixed income options.',
     date: '2025-01-28',
     category: 'Fixed Income',
-    image: '/images/financial-planning.jpg',
+    image: '/images/financial-planning.webp',
     imageAlt: 'Calculator and financial documents on a desk representing savings comparison',
     readingTime: 7,
     keywords: [
@@ -92,7 +152,7 @@ export const posts: Post[] = [
       'What the Financial Claims Scheme means for your deposits, how the $250K cap works per institution, and strategies some savers use to manage coverage.',
     date: '2025-01-20',
     category: 'Deposit Protection',
-    image: '/images/deposit-protection.jpg',
+    image: '/images/deposit-protection.webp',
     imageAlt:
       'Glass dome protecting gold coins representing the government deposit guarantee',
     readingTime: 5,
@@ -113,7 +173,7 @@ export const posts: Post[] = [
       'General considerations for using term deposits and fixed income within retirement planning — including laddering strategies and superannuation allocations.',
     date: '2025-01-15',
     category: 'Retirement Planning',
-    image: '/images/retirement-planning.jpg',
+    image: '/images/retirement-planning.webp',
     imageAlt:
       'Couple reviewing financial documents and planning for retirement',
     readingTime: 6,
@@ -135,7 +195,7 @@ export const posts: Post[] = [
       'A practical framework for comparing term deposit rates, savings accounts, and fees across Australian banks, credit unions, and building societies.',
     date: '2025-01-10',
     category: 'Banking',
-    image: '/images/bank-comparison.jpg',
+    image: '/images/bank-comparison.webp',
     imageAlt:
       'Modern Australian bank branch exterior with sandstone facade and eucalyptus tree',
     readingTime: 7,
@@ -156,7 +216,7 @@ export const posts: Post[] = [
       'When the RBA cuts the cash rate, what actually happens to your term deposits and savings accounts? A guide to the flow-on effects of rate cuts in Australia.',
     date: '2025-01-05',
     category: 'Interest Rates',
-    image: '/images/rate-cuts.jpg',
+    image: '/images/rate-cuts.webp',
     imageAlt:
       'Downward trending interest rate graph on paper with pen and glasses on desk',
     readingTime: 6,
@@ -178,7 +238,7 @@ export const posts: Post[] = [
       'How to structure a term deposit ladder to balance rate certainty with regular access to funds — a popular strategy for retirees and conservative savers.',
     date: '2024-12-28',
     category: 'Term Deposits',
-    image: '/images/deposit-ladder.jpg',
+    image: '/images/deposit-ladder.webp',
     imageAlt:
       'Wooden blocks arranged in ascending ladder pattern representing term deposit laddering',
     readingTime: 8,
@@ -200,7 +260,7 @@ export const posts: Post[] = [
       'Bonus rates, introductory offers, and ongoing rates — how to evaluate high-interest savings accounts and avoid common traps that erode your returns.',
     date: '2024-12-20',
     category: 'Savings',
-    image: '/images/savings-accounts.jpg',
+    image: '/images/savings-accounts.webp',
     imageAlt:
       'Piggy bank with coins on a desk representing savings accounts and growing wealth',
     readingTime: 6,
@@ -221,7 +281,7 @@ export const posts: Post[] = [
       'Understanding how your super fund allocates to bonds, term deposits, and cash — and what that means for your retirement balance in different rate environments.',
     date: '2024-12-15',
     category: 'Retirement Planning',
-    image: '/images/super-fixed-income.jpg',
+    image: '/images/super-fixed-income.webp',
     imageAlt:
       'Older couple reviewing superannuation statements at kitchen table with laptop',
     readingTime: 7,
@@ -258,6 +318,12 @@ export function getRelatedPosts(currentSlug: string, limit = 3): Post[] {
 
 export function getAllSlugs(): string[] {
   return posts.map((p) => p.slug);
+}
+
+export function getPostsByCategory(category: string, exclude?: string[]): Post[] {
+  return posts.filter(
+    (p) => p.category === category && !(exclude ?? []).includes(p.slug),
+  );
 }
 
 export function formatDate(dateStr: string): string {

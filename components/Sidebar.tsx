@@ -1,8 +1,15 @@
+'use client';
+
 import Link from 'next/link';
 import NewsletterForm from './NewsletterForm';
-import { CATEGORIES } from '@/lib/posts';
+import { CATEGORIES, getCategoryStyle } from '@/lib/posts';
 
-export default function Sidebar() {
+interface SidebarProps {
+  activeCategory?: string | null;
+  onCategoryClick?: (cat: string) => void;
+}
+
+export default function Sidebar({ activeCategory, onCategoryClick }: SidebarProps) {
   return (
     <aside className="sidebar">
       {/* Newsletter */}
@@ -39,11 +46,28 @@ export default function Sidebar() {
           Categories
         </h3>
         <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8 }}>
-          {CATEGORIES.map((cat) => (
-            <span key={cat} className="category-pill">
-              {cat}
-            </span>
-          ))}
+          {CATEGORIES.map((cat) => {
+            const colors = getCategoryStyle(cat);
+            const isActive = activeCategory === cat;
+            return (
+              <span
+                key={cat}
+                className={`category-pill category-pill-clickable${isActive ? ' category-pill-active' : ''}`}
+                style={{
+                  background: isActive ? colors.text : colors.bg,
+                  color: isActive ? '#fff' : colors.text,
+                }}
+                onClick={() => onCategoryClick?.(cat)}
+                role="button"
+                tabIndex={0}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') onCategoryClick?.(cat);
+                }}
+              >
+                {cat}
+              </span>
+            );
+          })}
         </div>
       </div>
 
