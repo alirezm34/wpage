@@ -29,7 +29,7 @@ const sections = [
     title: '1. What information we collect',
     content: (
       <>
-        <p style={pStyle}>Depending on how you interact with our website, we may collect:</p>
+        <p style={pStyle}>Depending on how you interact with aussierateinsights.com, we may collect:</p>
         <ul style={ulStyle}>
           <li><strong>Contact information</strong> (e.g., email address) if you submit it via forms.</li>
           <li><strong>Technical data</strong> (e.g., IP address, device type, browser type, pages viewed, timestamps).</li>
@@ -42,8 +42,8 @@ const sections = [
     title: '2. How we collect information',
     content: (
       <ul style={ulStyle}>
-        <li>When you enter information into a form (e.g., newsletter subscription).</li>
-        <li>Automatically via cookies and server logs when you browse the website.</li>
+        <li>When you enter information into a form on aussierateinsights.com (e.g., newsletter subscription).</li>
+        <li>Automatically via cookies and server logs when you browse aussierateinsights.com.</li>
         <li>Via third-party tools used for analytics and advertising measurement.</li>
       </ul>
     ),
@@ -52,11 +52,11 @@ const sections = [
     title: '3. How we use information',
     content: (
       <>
-        <p style={pStyle}>We may use personal information to:</p>
+        <p style={pStyle}>Aussie Rate Insights Pty Ltd may use personal information to:</p>
         <ul style={ulStyle}>
-          <li>Provide and improve website content and user experience.</li>
+          <li>Provide and improve content and user experience on aussierateinsights.com.</li>
           <li>Respond to enquiries and provide requested information.</li>
-          <li>Operate, maintain, and secure the website.</li>
+          <li>Operate, maintain, and secure aussierateinsights.com.</li>
           <li>Measure and improve marketing performance and website conversion events.</li>
           <li>Comply with legal obligations.</li>
         </ul>
@@ -68,13 +68,14 @@ const sections = [
     content: (
       <>
         <p style={pStyle}>
-          We may use cookies and similar technologies to understand website usage and measure
-          advertising effectiveness. This can include tools that receive event data such as page
-          views or form submissions.
+          We may use cookies and similar technologies to understand how visitors use
+          aussierateinsights.com and to measure advertising effectiveness. This can include tools
+          that receive event data such as page views or form submissions. For more details, see
+          our <a href="/cookies">Cookie Policy</a>.
         </p>
         <p style={pStyle}>
-          You can manage cookies through your browser settings. Disabling cookies may affect site
-          functionality.
+          You can manage cookies through your browser settings. Disabling cookies may affect the
+          functionality of aussierateinsights.com.
         </p>
       </>
     ),
@@ -83,7 +84,7 @@ const sections = [
     title: '5. Disclosure to third parties',
     content: (
       <>
-        <p style={pStyle}>We may share information with third parties when needed to operate our services, including:</p>
+        <p style={pStyle}>Aussie Rate Insights Pty Ltd may share information with third parties when needed to operate aussierateinsights.com, including:</p>
         <ul style={ulStyle}>
           <li>Hosting and infrastructure providers</li>
           <li>Analytics providers</li>
@@ -195,9 +196,10 @@ export default function PrivacyPage() {
 
         <div className="card-muted" style={{ marginBottom: 32 }}>
           <p style={{ margin: '0 0 10px', fontSize: 14, color: 'var(--text-muted)' }}>
-            This Privacy Policy explains how <strong style={{ color: 'var(--text)' }}>Aussie Rate Insights</strong>{' '}
+            This Privacy Policy explains how <strong style={{ color: 'var(--text)' }}>Aussie Rate Insights Pty Ltd</strong>{' '}
             (&ldquo;we&rdquo;, &ldquo;us&rdquo;, &ldquo;our&rdquo;) collects, uses, stores, and discloses personal
-            information. We aim to handle personal information in accordance with applicable
+            information when you visit <strong style={{ color: 'var(--text)' }}>aussierateinsights.com</strong>.
+            We aim to handle personal information in accordance with applicable
             Australian privacy principles and privacy obligations.
           </p>
           <p style={{ margin: 0, fontSize: 13, color: 'var(--text-light)' }}>

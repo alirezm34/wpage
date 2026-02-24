@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     template: '%s | Aussie Rate Insights',
   },
   description:
-    'General information about term deposits, fixed income, savings rates, and how RBA interest rate decisions can influence returns in Australia.',
+    'Australian finance blog covering term deposits, fixed income, savings rates, RBA interest rate decisions, bank comparisons, and retirement planning.',
   icons: {
     icon: '/favicon.png',
     apple: '/favicon.png',
@@ -32,8 +32,7 @@ export const metadata: Metadata = {
     images: ['/og-image.png'],
   },
   other: {
-    // Replace with your actual Facebook domain verification code from Meta Business Manager
-    // 'facebook-domain-verification': 'your-verification-code-here',
+    'facebook-domain-verification': 'REPLACE_WITH_YOUR_VERIFICATION_CODE',
   },
 };
 
@@ -45,10 +44,17 @@ export default function RootLayout({
   return (
     <html lang="en-AU">
       <head>
-        {/*
-          META PIXEL — Replace 'YOUR_PIXEL_ID' with your actual Meta Pixel ID.
-          Get it from Meta Events Manager: https://business.facebook.com/events_manager
-        */}
+        {/* CLOAKERLY — Paste your Cloakerly campaign JS snippet below */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              // CLOAKERLY: Replace this comment with the JS snippet from
+              // Cloakerly dashboard > Your Campaign > Get Code
+            `,
+          }}
+        />
+
+        {/* META PIXEL */}
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -60,11 +66,19 @@ export default function RootLayout({
               t.src=v;s=b.getElementsByTagName(e)[0];
               s.parentNode.insertBefore(t,s)}(window, document,'script',
               'https://connect.facebook.net/en_US/fbevents.js');
-              // fbq('init', 'YOUR_PIXEL_ID');
-              // fbq('track', 'PageView');
+              fbq('init', '898957016237130');
+              fbq('track', 'PageView');
             `,
           }}
         />
+        <noscript>
+          <img
+            height="1"
+            width="1"
+            style={{ display: 'none' }}
+            src="https://www.facebook.com/tr?id=898957016237130&ev=PageView&noscript=1"
+          />
+        </noscript>
       </head>
       <body>
         {children}

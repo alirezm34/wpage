@@ -29,11 +29,11 @@ const sections = [
     title: '1. General information only',
     content: (
       <p style={pStyle}>
-        The Website provides general information about Australian savings rates, term deposits,
-        fixed income, and related topics. The content is{' '}
+        aussierateinsights.com provides general information about Australian savings rates, term
+        deposits, fixed income, and related topics. The content is{' '}
         <strong>not personal financial advice</strong> and does not consider your objectives,
         financial situation, or needs. You should seek independent professional advice before acting
-        on information from this Website.
+        on information from aussierateinsights.com.
       </p>
     ),
   },
@@ -61,8 +61,9 @@ const sections = [
     title: '4. Third-party services',
     content: (
       <p style={pStyle}>
-        The Website may rely on third-party hosting, analytics, advertising, or measurement
-        services. Your use of those services may also be subject to their terms and policies.
+        aussierateinsights.com may rely on third-party hosting, analytics, advertising, or
+        measurement services. Your use of those services may also be subject to their terms and
+        policies.
       </p>
     ),
   },
@@ -84,9 +85,9 @@ const sections = [
     title: '6. Intellectual property',
     content: (
       <p style={pStyle}>
-        Website content, branding, and design are owned by us or licensed to us. You may view and
-        print pages for personal use only. You must not reproduce or distribute content for
-        commercial purposes without permission.
+        All content, branding, and design on aussierateinsights.com are owned by Aussie Rate
+        Insights Pty Ltd or licensed to us. You may view and print pages for personal use only. You
+        must not reproduce or distribute content for commercial purposes without permission.
       </p>
     ),
   },
@@ -94,8 +95,8 @@ const sections = [
     title: '7. Changes',
     content: (
       <p style={pStyle}>
-        We may update these Terms at any time. Continued use of the Website after changes means you
-        accept the updated Terms.
+        Aussie Rate Insights Pty Ltd may update these Terms at any time. Continued use of
+        aussierateinsights.com after changes means you accept the updated Terms.
       </p>
     ),
   },
@@ -170,8 +171,10 @@ export default function TermsPage() {
 
         <div className="card-muted" style={{ marginBottom: 32 }}>
           <p style={{ margin: '0 0 10px', fontSize: 14, color: 'var(--text-muted)' }}>
-            These Terms of Use govern your access to and use of the Aussie Rate Insights website
-            (&ldquo;Website&rdquo;). By using the Website, you agree to these Terms.
+            These Terms of Use govern your access to and use of{' '}
+            <strong style={{ color: 'var(--text)' }}>aussierateinsights.com</strong> (&ldquo;Website&rdquo;),
+            operated by <strong style={{ color: 'var(--text)' }}>Aussie Rate Insights Pty Ltd</strong>.
+            By using the Website, you agree to these Terms.
           </p>
           <p style={{ margin: 0, fontSize: 13, color: 'var(--text-light)' }}>
             If you have questions, contact{' '}
