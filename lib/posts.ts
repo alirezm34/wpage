@@ -195,9 +195,9 @@ export const posts: Post[] = [
       'A practical framework for comparing term deposit rates, savings accounts, and fees across Australian banks, credit unions, and building societies.',
     date: '2025-01-10',
     category: 'Banking',
-    image: '/images/bank-comparison.webp',
+    image: '/images/bank-strategy-comparison.webp',
     imageAlt:
-      'Modern Australian bank branch exterior with sandstone facade and eucalyptus tree',
+      'Person at a desk comparing bank rates on a laptop with a notepad and coffee',
     readingTime: 7,
     keywords: [
       'bank comparison',
@@ -295,6 +295,138 @@ export const posts: Post[] = [
     ],
     metaDescription:
       'How Australian super funds invest in fixed income and what it means for your retirement. Understand bond allocations, cash options, and rate sensitivity.',
+  },
+  {
+    slug: 'breaking-term-deposit-early-fees-alternatives',
+    title: 'Breaking a Term Deposit Early: Fees, Penalties and Alternatives',
+    excerpt:
+      'Locked into a term deposit but need your money sooner? Here\'s what early withdrawal actually costs, how banks calculate penalty rates, and smarter alternatives to consider.',
+    date: '2024-12-10',
+    category: 'Term Deposits',
+    image: '/images/early-withdrawal-td.webp',
+    imageAlt:
+      'Laptop showing term deposit comparison table with calculator and Australian currency on desk',
+    readingTime: 6,
+    keywords: [
+      'term deposits',
+      'early withdrawal',
+      'penalty rates',
+      'break fees',
+      'savings',
+      'alternatives',
+    ],
+    metaDescription:
+      'What happens when you break a term deposit early in Australia? Understand penalty interest, reduced rates, and alternative strategies to avoid early withdrawal fees.',
+  },
+  {
+    slug: 'short-vs-long-term-deposits-choosing-duration',
+    title: 'Short vs Long Term Deposits: Choosing the Right Duration',
+    excerpt:
+      'Should you lock in for 3 months or 3 years? A practical guide to choosing term deposit duration based on rate outlook, liquidity needs, and your financial goals.',
+    date: '2024-12-05',
+    category: 'Term Deposits',
+    image: '/images/short-vs-long-td.webp',
+    imageAlt:
+      'Calendar showing maturity dates with coloured sticky notes marking short and long term periods',
+    readingTime: 7,
+    keywords: [
+      'term deposits',
+      'short term',
+      'long term',
+      'duration',
+      'maturity',
+      'rate outlook',
+    ],
+    metaDescription:
+      'How to choose between short and long term deposits in Australia. Compare flexibility, rates, and strategies for different savings timeframes.',
+  },
+  {
+    slug: 'how-banks-set-term-deposit-rates',
+    title: 'How Banks Set Term Deposit Rates: Behind the Scenes',
+    excerpt:
+      'Ever wondered why different banks offer different rates for the same term? Here\'s how wholesale funding costs, competition, and the RBA cash rate shape what you earn.',
+    date: '2024-11-28',
+    category: 'Interest Rates',
+    image: '/images/banks-set-rates.webp',
+    imageAlt:
+      'Hand writing interest rate percentages on glass whiteboard with financial charts in background',
+    readingTime: 6,
+    keywords: [
+      'interest rates',
+      'bank pricing',
+      'wholesale funding',
+      'RBA cash rate',
+      'term deposits',
+      'competition',
+    ],
+    metaDescription:
+      'How Australian banks determine term deposit rates. Understand the role of wholesale funding, RBA policy, competition, and balance sheet management in rate setting.',
+  },
+  {
+    slug: 'fixed-vs-variable-rates-savings-strategy',
+    title: 'Fixed vs Variable Rates: Which Suits Your Savings Strategy?',
+    excerpt:
+      'Locking in a fixed rate gives certainty, but variable rates can rise with the market. Here\'s how to weigh the trade-offs and decide which approach fits your situation.',
+    date: '2024-11-20',
+    category: 'Interest Rates',
+    image: '/images/fixed-vs-variable.webp',
+    imageAlt:
+      'Split concept image showing a padlock for fixed rates and flowing waves for variable rates',
+    readingTime: 5,
+    keywords: [
+      'fixed rates',
+      'variable rates',
+      'savings strategy',
+      'term deposits',
+      'interest rates',
+      'rate risk',
+    ],
+    metaDescription:
+      'Fixed vs variable rate savings in Australia — pros, cons, and when each strategy makes sense. Learn how to balance rate certainty with flexibility.',
+  },
+  {
+    slug: 'term-deposits-in-smsf-rules-strategies',
+    title: 'Using Term Deposits in Your SMSF: Rules and Strategies',
+    excerpt:
+      'Self-managed super funds commonly hold term deposits as a defensive allocation. Here\'s what trustees need to know about compliance, sole-purpose rules, and maximising returns.',
+    date: '2024-11-15',
+    category: 'Retirement Planning',
+    image: '/images/smsf-term-deposits.webp',
+    imageAlt:
+      'Retired couple meeting with financial advisor at kitchen table reviewing retirement documents',
+    readingTime: 7,
+    keywords: [
+      'SMSF',
+      'term deposits',
+      'retirement',
+      'superannuation',
+      'self-managed super',
+      'compliance',
+    ],
+    metaDescription:
+      'Guide to holding term deposits in a self-managed super fund. Understand SMSF compliance rules, sole-purpose test, and strategies for defensive retirement allocations.',
+  },
+  {
+    slug: 'retirement-income-streams-term-deposits-vs-annuities',
+    title: 'Income Streams in Retirement: Term Deposits vs Annuities',
+    excerpt:
+      'Comparing term deposits and annuities as retirement income sources — including liquidity, guaranteed returns, tax treatment, and how each fits into a drawdown strategy.',
+    date: '2024-11-10',
+    category: 'Retirement Planning',
+    image: '/images/retirement-income-streams.webp',
+    imageAlt:
+      'Stacked coins growing in height with a small tree on top representing income growth',
+    readingTime: 6,
+    keywords: [
+      'retirement income',
+      'annuities',
+      'term deposits',
+      'drawdown strategy',
+      'guaranteed returns',
+      'retirement planning',
+    ],
+    metaDescription:
+      'Term deposits vs annuities for retirement income in Australia. Compare liquidity, returns, tax treatment, and suitability for different retirement strategies.',
   },
 ];
 

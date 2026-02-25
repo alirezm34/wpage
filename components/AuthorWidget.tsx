@@ -7,15 +7,14 @@ export default function AuthorWidget() {
       <h2 className="section-heading">About Us</h2>
       <div className="card author-widget">
         <Image
-          src="/images/logo.svg"
-          alt="Aussie Rate Insights"
+          src="/images/profile-author.webp"
+          alt="Aussie Rate Insights founder"
           width={100}
           height={100}
           sizes="100px"
           className="author-widget-avatar"
         />
         <h3 className="author-widget-name">Aussie Rate Insights</h3>
-        <p className="author-widget-location">Australia</p>
         <p className="author-widget-bio">
           We publish educational content about Australian savings rates, term deposits, fixed income,
           and retirement planning considerations. Our goal is to help Australians make more informed

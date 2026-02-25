@@ -326,8 +326,8 @@ export const postContent: ContentMap = {
 
       <figure>
         <Image
-          src="/images/rba-building.webp"
-          alt="Classical Australian institutional building exterior representing the Reserve Bank of Australia"
+          src="/images/rba-rate-decisions.webp"
+          alt="Aerial view of the Reserve Bank of Australia building at golden hour with rate trend overlay"
           width={1587}
           height={2245}
           style={{
@@ -1059,6 +1059,475 @@ export const postContent: ContentMap = {
         Your super fund&apos;s fixed income allocation is working for you behind the scenes. Take
         the time to understand it — especially as you approach retirement, when the balance between
         growth and defence matters most.
+      </blockquote>
+    </>
+  ),
+
+  'breaking-term-deposit-early-fees-alternatives': (
+    <>
+      <p>
+        Life doesn&apos;t always go to plan. You may have locked your savings into a{' '}
+        <strong>term deposit</strong> expecting to leave it untouched, only to face an unexpected
+        expense — a medical bill, a car breakdown, or a change in circumstances that means you need
+        access to those funds sooner than anticipated.
+      </p>
+      <p>
+        The good news is that breaking a term deposit early is almost always possible in Australia.
+        The bad news is that it comes at a cost. Understanding how <strong>penalty rates</strong>{' '}
+        work, and what alternatives exist, can help you make better decisions before and after
+        locking in.
+      </p>
+
+      <h2>How Early Withdrawal Penalties Work</h2>
+      <p>
+        When you break a term deposit before maturity, most Australian banks apply a reduced
+        interest rate rather than charging a flat fee. The exact mechanism varies by institution,
+        but the most common approach is to pay a lower rate based on how long the deposit was
+        actually held.
+      </p>
+      <p>
+        For example, if you locked in a 12-month deposit at 5.0% P.A. but withdrew after 6
+        months, the bank might apply their rate for a 6-month term minus a penalty margin —
+        often between 0.5% and 2.0%. In some cases, the effective rate can drop to as low as the
+        at-call savings rate.
+      </p>
+      <p>
+        Each bank has its own early withdrawal policy, and these are typically outlined in the
+        product disclosure statement (PDS). It&apos;s worth reading this carefully before opening
+        any term deposit.
+      </p>
+
+      <h2>Common Bank Approaches to Penalties</h2>
+      <p>
+        There are broadly three models banks use when calculating early break costs:
+      </p>
+      <ul>
+        <li><strong>Reduced rate method:</strong> Interest is recalculated at a lower rate for the period held. This is the most common approach among major and regional banks.</li>
+        <li><strong>Flat penalty:</strong> A set percentage (e.g., 1%) is deducted from the agreed rate. Less common but still used by some online providers.</li>
+        <li><strong>No interest paid:</strong> In rare cases, particularly for very short holding periods (under 30 days), some banks may pay zero interest on the broken deposit.</li>
+      </ul>
+
+      <h2>Notice Periods</h2>
+      <p>
+        Most banks require 31 days&apos; written notice before processing an early withdrawal.
+        This means you can&apos;t simply log in and transfer the funds instantly. If you anticipate
+        needing emergency access, this notice period is an important factor to plan around.
+      </p>
+      <p>
+        Some institutions offer &quot;at-call&quot; or short-notice term deposits that allow
+        earlier access with reduced penalties, though these typically come with lower headline
+        rates.
+      </p>
+
+      <h2>Alternatives to Breaking a Term Deposit</h2>
+      <p>
+        Before requesting an early withdrawal, consider whether there are better options available:
+      </p>
+      <ul>
+        <li><strong>Use other savings first:</strong> If you have funds in a savings account or offset account, draw from those before breaking a term deposit.</li>
+        <li><strong>Deposit laddering:</strong> If you&apos;ve structured your savings across multiple term deposits with staggered maturity dates, one may be maturing soon enough to cover your needs.</li>
+        <li><strong>Personal loan or credit line:</strong> In some cases, the cost of a short-term personal loan may be less than the interest penalty on a large term deposit. Run the numbers before deciding.</li>
+      </ul>
+
+      <h2>Planning Ahead: How to Reduce the Risk</h2>
+      <p>
+        The best way to avoid early withdrawal penalties is to only lock away funds you&apos;re
+        confident you won&apos;t need during the term. A common strategy is to maintain an
+        emergency fund in a high-interest savings account (typically 3–6 months of expenses)
+        before committing to a term deposit.
+      </p>
+
+      <blockquote>
+        Breaking a term deposit is rarely the end of the world, but the penalty can significantly
+        reduce your returns. Know your bank&apos;s policy, keep an emergency buffer elsewhere, and
+        consider laddering to maintain flexibility.
+      </blockquote>
+    </>
+  ),
+
+  'short-vs-long-term-deposits-choosing-duration': (
+    <>
+      <p>
+        One of the most common decisions Australian savers face when opening a{' '}
+        <strong>term deposit</strong> is how long to lock their money away. Should you take a
+        short-term deposit of 3–6 months for flexibility, or lock in a longer term of 1–5 years
+        to secure a higher rate?
+      </p>
+      <p>
+        The answer depends on several factors: the current <strong>interest rate</strong>{' '}
+        environment, your personal liquidity needs, and your expectations about where rates are
+        headed. There&apos;s no universally correct choice — but understanding the trade-offs can
+        help you make a more informed decision.
+      </p>
+
+      <h2>Short-Term Deposits (1–6 Months)</h2>
+      <p>
+        Short-term deposits offer flexibility. Your money isn&apos;t locked away for long, so you
+        can reassess and reinvest at maturity without waiting years for access.
+      </p>
+      <ul>
+        <li><strong>Best when:</strong> You expect rates to rise and want to reinvest at higher rates soon.</li>
+        <li><strong>Trade-off:</strong> Short terms often (but not always) come with lower rates than longer terms.</li>
+        <li><strong>Ideal for:</strong> Emergency-adjacent savings, or funds you may need within the year.</li>
+      </ul>
+
+      <h2>Medium-Term Deposits (6–12 Months)</h2>
+      <p>
+        This is the most popular range for Australian term deposits. It strikes a balance between
+        earning a competitive rate and maintaining reasonable access to your funds.
+      </p>
+      <p>
+        In a stable or mildly declining rate environment, 6–12 month terms can offer some of the
+        best value. Banks frequently offer promotional rates in this range to attract new deposits.
+      </p>
+
+      <h2>Long-Term Deposits (1–5 Years)</h2>
+      <p>
+        Longer-term deposits are suited to savers who have a clear savings goal with a defined
+        timeline — for example, saving for a property purchase in 3 years, or parking
+        retirement funds defensively.
+      </p>
+      <ul>
+        <li><strong>Best when:</strong> You expect rates to fall and want to lock in today&apos;s rate for as long as possible.</li>
+        <li><strong>Trade-off:</strong> Your money is inaccessible (or subject to penalties) for the full term.</li>
+        <li><strong>Watch out for:</strong> Inflation risk — if inflation exceeds your locked rate, real returns turn negative.</li>
+      </ul>
+
+      <h2>How the Rate Environment Affects Your Choice</h2>
+      <p>
+        When the <strong>RBA</strong> is signalling potential <strong>rate cuts</strong>, longer
+        terms become more attractive because you can secure today&apos;s higher rate before it
+        drops. Conversely, when rates are rising, short-term deposits let you reinvest at
+        progressively higher rates.
+      </p>
+      <p>
+        In practice, many experienced savers use a <strong>laddering strategy</strong> — splitting
+        their funds across multiple term lengths — to balance rate certainty with regular access
+        to maturing deposits.
+      </p>
+
+      <h2>Key Questions Before Choosing a Duration</h2>
+      <ul>
+        <li>Do I have a separate emergency fund, so I won&apos;t need to break this deposit?</li>
+        <li>Am I comfortable not accessing these funds for the full term?</li>
+        <li>Do I believe rates are more likely to rise or fall over the deposit period?</li>
+        <li>Would splitting across multiple terms give me a better overall outcome?</li>
+      </ul>
+
+      <blockquote>
+        There&apos;s no perfect term length. The right duration depends on your financial
+        situation, your rate outlook, and how much flexibility you need. When in doubt, laddering
+        across short, medium, and long terms is a proven way to manage the uncertainty.
+      </blockquote>
+    </>
+  ),
+
+  'how-banks-set-term-deposit-rates': (
+    <>
+      <p>
+        If you&apos;ve ever compared <strong>term deposit</strong> rates across Australian banks,
+        you&apos;ve probably noticed that rates vary — sometimes significantly — between
+        institutions offering the same term length. Why does one bank offer 4.8% on a 12-month
+        term while another offers 5.3%?
+      </p>
+      <p>
+        The answer lies in how banks fund their operations, their competitive positioning, and
+        broader economic factors set by the <strong>RBA</strong>. Understanding this can help you
+        make sense of rate movements and time your deposits more effectively.
+      </p>
+
+      <h2>The Role of the RBA Cash Rate</h2>
+      <p>
+        The Reserve Bank of Australia&apos;s <strong>cash rate</strong> is the single biggest
+        influence on term deposit pricing. When the RBA raises or lowers the cash rate, banks
+        adjust their deposit and lending rates accordingly — though not always by the same amount
+        or at the same speed.
+      </p>
+      <p>
+        Term deposit rates tend to move in the same direction as the cash rate, but with a lag.
+        Banks may take days or weeks to update their pricing after an RBA decision, and the degree
+        of pass-through varies by institution.
+      </p>
+
+      <h2>Wholesale Funding Costs</h2>
+      <p>
+        Banks don&apos;t just rely on customer deposits to fund their lending. They also borrow on
+        wholesale money markets — both domestically and internationally. The cost of this wholesale
+        funding directly influences what banks are willing to pay for retail deposits.
+      </p>
+      <p>
+        When wholesale funding is cheap and readily available, banks have less incentive to offer
+        high deposit rates. Conversely, when wholesale markets tighten, banks compete more
+        aggressively for retail deposits — which is when savers tend to see the best term deposit
+        rates.
+      </p>
+
+      <h2>Competition and Market Positioning</h2>
+      <p>
+        Smaller banks, credit unions, and online-only providers often offer higher term deposit
+        rates than the big four. This isn&apos;t because they&apos;re riskier — all ADIs are
+        covered by the same government guarantee — but because attracting deposits is essential
+        for their business model.
+      </p>
+      <p>
+        Larger banks have diversified funding sources and established customer bases, so they can
+        afford to offer lower deposit rates. Smaller institutions need to compete on price to grow
+        their deposit base, which benefits rate-conscious savers.
+      </p>
+
+      <h2>Balance Sheet and Liquidity Requirements</h2>
+      <p>
+        APRA requires banks to maintain minimum liquidity ratios. When a bank&apos;s deposit base
+        falls below target levels, it may temporarily boost term deposit rates to attract inflows.
+        This explains why rates can sometimes spike for a specific institution without any change
+        in the RBA cash rate.
+      </p>
+
+      <h2>Promotional and Strategic Pricing</h2>
+      <p>
+        Some banks use <strong>promotional rates</strong> to attract new customers. These are
+        typically higher than standard rates but may apply only to new deposits, specific term
+        lengths, or minimum balances. While promotional rates can offer excellent value, it&apos;s
+        important to check what the rate reverts to at maturity.
+      </p>
+
+      <blockquote>
+        Term deposit rates aren&apos;t set arbitrarily. They reflect a bank&apos;s funding needs,
+        competitive strategy, and the broader interest rate environment. Understanding these
+        drivers can help you identify when rates are likely to rise, fall, or peak — and act
+        accordingly.
+      </blockquote>
+    </>
+  ),
+
+  'fixed-vs-variable-rates-savings-strategy': (
+    <>
+      <p>
+        When it comes to growing your savings, one of the fundamental choices is whether to opt
+        for a <strong>fixed rate</strong> (like a term deposit) or a <strong>variable rate</strong>{' '}
+        (like a savings account). Each approach has distinct advantages, and the right choice
+        depends on your financial goals, the current rate environment, and how much flexibility
+        you need.
+      </p>
+
+      <h2>What Is a Fixed Rate?</h2>
+      <p>
+        A fixed rate locks in your <strong>interest rate</strong> for a set period — typically
+        1 month to 5 years for a <strong>term deposit</strong>. Once locked, the rate won&apos;t
+        change regardless of what happens to the RBA cash rate or the broader market.
+      </p>
+      <ul>
+        <li><strong>Pros:</strong> Certainty of returns; protection against rate cuts; easy to plan around.</li>
+        <li><strong>Cons:</strong> No access to funds without penalty; you miss out if rates rise during the term.</li>
+      </ul>
+
+      <h2>What Is a Variable Rate?</h2>
+      <p>
+        Variable-rate products — primarily high-interest savings accounts — pay a rate that can
+        change at any time. Banks can raise or lower the rate in response to RBA decisions,
+        competitive pressure, or their own funding needs.
+      </p>
+      <ul>
+        <li><strong>Pros:</strong> Full liquidity; rate rises benefit you immediately; no lock-in period.</li>
+        <li><strong>Cons:</strong> Rate can drop without notice; bonus conditions may be hard to maintain; returns are unpredictable.</li>
+      </ul>
+
+      <h2>When Fixed Rates Make More Sense</h2>
+      <p>
+        Fixed rates shine when the <strong>RBA</strong> is signalling <strong>rate cuts</strong>.
+        By locking in a term deposit at the current rate, you protect your returns even as
+        variable savings rates fall in response to a lower cash rate.
+      </p>
+      <p>
+        Fixed rates are also beneficial for savers who want certainty — for example, if you&apos;re
+        saving towards a goal with a specific dollar target and timeline, knowing exactly what
+        you&apos;ll earn removes guesswork.
+      </p>
+
+      <h2>When Variable Rates Make More Sense</h2>
+      <p>
+        If the RBA is raising rates, variable savings accounts let you benefit from each
+        successive increase without being locked into a lower rate. They also provide full
+        liquidity, making them ideal for emergency funds or savings you may need to access at
+        short notice.
+      </p>
+      <p>
+        Some savers prefer the discipline of savings accounts with bonus rate conditions (e.g.,
+        deposit a minimum amount each month and make no withdrawals) as a way to build consistent
+        savings habits.
+      </p>
+
+      <h2>A Blended Approach</h2>
+      <p>
+        Many Australian savers use a combination of both. A typical approach is to keep an
+        emergency fund in a high-interest savings account for immediate access, while locking
+        longer-term savings into term deposits for higher guaranteed returns.
+      </p>
+      <p>
+        This blended strategy gives you the best of both worlds: liquidity where you need it and
+        rate certainty where you don&apos;t.
+      </p>
+
+      <blockquote>
+        Fixed and variable rates aren&apos;t competing strategies — they&apos;re complementary
+        tools. The smartest approach is usually to use both, tailored to your financial goals and
+        the current interest rate outlook.
+      </blockquote>
+    </>
+  ),
+
+  'term-deposits-in-smsf-rules-strategies': (
+    <>
+      <p>
+        Self-managed super funds (SMSFs) are one of the largest holders of term deposits in
+        Australia. For trustees looking for a low-risk, predictable return within their{' '}
+        <strong>superannuation</strong> portfolio, <strong>term deposits</strong> offer simplicity
+        and government-backed protection up to $250,000 per ADI.
+      </p>
+      <p>
+        But holding term deposits in an SMSF comes with specific rules and compliance
+        requirements that differ from personal banking. Here&apos;s what trustees need to know.
+      </p>
+
+      <h2>Why SMSFs Hold Term Deposits</h2>
+      <p>
+        According to ATO data, SMSFs collectively hold billions of dollars in cash and term
+        deposits. The appeal is straightforward: guaranteed returns, no market volatility, and
+        protection under the Financial Claims Scheme.
+      </p>
+      <p>
+        For members approaching or in retirement, term deposits can form the defensive portion
+        of an investment strategy — providing predictable income while growth assets (shares,
+        property) handle long-term capital appreciation.
+      </p>
+
+      <h2>Sole Purpose Test</h2>
+      <p>
+        All SMSF investments must satisfy the <strong>sole purpose test</strong> — meaning the
+        fund must be maintained for the sole purpose of providing retirement benefits to its
+        members. Term deposits held in the fund&apos;s name with an ADI easily satisfy this
+        requirement, as they&apos;re clearly investment assets.
+      </p>
+
+      <h2>Investment Strategy Requirements</h2>
+      <p>
+        SMSF trustees are legally required to have a documented investment strategy. If term
+        deposits form a significant part of the fund&apos;s assets, the strategy should explain
+        why — for example, citing the member&apos;s risk tolerance, age, and income requirements.
+      </p>
+      <p>
+        The strategy should also address diversification. A fund holding 100% of its assets in
+        term deposits may face questions from auditors about whether the strategy adequately
+        considers growth and inflation risk.
+      </p>
+
+      <h2>Opening Term Deposits for an SMSF</h2>
+      <p>
+        Term deposits must be held in the fund&apos;s name, not in the personal name of a trustee.
+        Most major and regional banks offer SMSF-specific term deposit accounts, though the
+        application process is typically more involved than opening a personal account.
+      </p>
+      <p>
+        You&apos;ll generally need the fund&apos;s trust deed, ABN, TFN, and identification for
+        all trustees. Some banks also require a copy of the investment strategy.
+      </p>
+
+      <h2>Tax Considerations</h2>
+      <p>
+        Interest earned on SMSF term deposits is taxed at the fund level — 15% in the
+        accumulation phase and 0% in the pension phase. This makes term deposits particularly
+        attractive for funds in pension mode, where the guaranteed return is effectively
+        tax-free.
+      </p>
+
+      <h2>Maximising Returns Within the Rules</h2>
+      <ul>
+        <li><strong>Spread across ADIs:</strong> The $250,000 government guarantee applies per institution. Splitting deposits across multiple banks maximises protection.</li>
+        <li><strong>Ladder maturities:</strong> Staggering maturity dates ensures regular access to funds for pension payments or reinvestment at potentially better rates.</li>
+        <li><strong>Compare rates regularly:</strong> SMSF term deposit rates are sometimes different from personal rates. Always check whether your bank offers a specific SMSF rate.</li>
+      </ul>
+
+      <blockquote>
+        Term deposits are a natural fit for SMSFs — especially in the pension phase where the
+        tax advantages amplify the guaranteed return. But trustees must ensure proper
+        documentation, compliance, and a balanced investment strategy.
+      </blockquote>
+    </>
+  ),
+
+  'retirement-income-streams-term-deposits-vs-annuities': (
+    <>
+      <p>
+        One of the most important decisions retirees face is how to convert their accumulated
+        savings into a reliable income stream. Two of the most commonly considered options for
+        conservative investors are <strong>term deposits</strong> and <strong>annuities</strong> —
+        both offer predictable returns, but they work very differently.
+      </p>
+      <p>
+        Understanding the key differences can help you — or your financial adviser — build a
+        retirement income strategy that balances security, flexibility, and tax efficiency.
+      </p>
+
+      <h2>Term Deposits as Retirement Income</h2>
+      <p>
+        Term deposits are familiar to most Australians. You deposit a lump sum with an ADI for a
+        fixed period, earn a guaranteed rate, and receive your principal back at maturity. For
+        retirees, the key advantages are:
+      </p>
+      <ul>
+        <li><strong>Government guarantee:</strong> Deposits up to $250,000 per ADI are protected under the Financial Claims Scheme.</li>
+        <li><strong>Flexibility at maturity:</strong> You can withdraw, reinvest, or change the term when each deposit matures.</li>
+        <li><strong>Laddering potential:</strong> By staggering deposits, you can create regular income intervals (e.g., one maturing each quarter).</li>
+      </ul>
+      <p>
+        The main limitation is that term deposits don&apos;t provide a true income stream — you
+        receive interest payments (monthly, quarterly, annually, or at maturity) and must manage
+        reinvestment yourself.
+      </p>
+
+      <h2>Annuities as Retirement Income</h2>
+      <p>
+        Annuities are products — typically offered by life insurance companies — that convert a
+        lump sum into guaranteed regular payments for a fixed period or for life. Key features
+        include:
+      </p>
+      <ul>
+        <li><strong>Guaranteed income:</strong> Payments continue regardless of market conditions for the agreed period.</li>
+        <li><strong>Longevity protection:</strong> Lifetime annuities protect against the risk of outliving your savings.</li>
+        <li><strong>Centrelink benefits:</strong> Some annuities receive favourable treatment under the assets and income tests.</li>
+      </ul>
+      <p>
+        The trade-off is reduced flexibility. Once you purchase an annuity, the capital is
+        typically locked in — you can&apos;t withdraw the lump sum if circumstances change.
+      </p>
+
+      <h2>Comparing the Two</h2>
+      <p>
+        The choice between term deposits and annuities often comes down to a few key factors:
+      </p>
+      <ul>
+        <li><strong>Liquidity:</strong> Term deposits return your principal at maturity; annuities generally do not.</li>
+        <li><strong>Longevity risk:</strong> Annuities can provide income for life; term deposits require active management and reinvestment.</li>
+        <li><strong>Rates:</strong> Term deposit rates are transparent and easy to compare; annuity rates are baked into the payment structure and harder to evaluate.</li>
+        <li><strong>Government guarantee:</strong> Term deposits are covered by the FCS; annuities are not (though life insurance companies are regulated by APRA).</li>
+      </ul>
+
+      <h2>A Combined Approach</h2>
+      <p>
+        Many retirement planning strategies incorporate both products. A common approach is to
+        use an annuity to cover essential living expenses (providing a floor of guaranteed income)
+        while holding term deposits for discretionary spending, unexpected costs, and capital
+        preservation.
+      </p>
+      <p>
+        This combination provides the security of guaranteed income with the flexibility to
+        adjust as rates, needs, and circumstances change over time.
+      </p>
+
+      <blockquote>
+        Term deposits and annuities serve different purposes in retirement. Rather than choosing
+        one or the other, consider how each fits into your broader income strategy — and always
+        seek professional advice tailored to your individual circumstances.
       </blockquote>
     </>
   ),
