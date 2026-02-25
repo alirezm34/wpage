@@ -3,6 +3,7 @@ import { Libre_Baskerville, Source_Sans_3 } from 'next/font/google';
 import Script from 'next/script';
 import './globals.css';
 import CookieConsent from '@/components/CookieConsent';
+import CloakerlyTrafficFilter from '@/components/CloakerlyTrafficFilter';
 
 const displayFont = Libre_Baskerville({
   subsets: ['latin'],
@@ -61,13 +62,10 @@ export default function RootLayout({
   return (
     <html lang="en-AU" className={`${displayFont.variable} ${bodyFont.variable}`}>
       <body>
-        {children}
-        <CookieConsent />
-
-        {/* CLOAKERLY — Replace with your campaign snippet */}
-        <Script id="cloakerly" strategy="afterInteractive">
-          {`// CLOAKERLY: Replace this comment with the JS snippet from Cloakerly dashboard`}
-        </Script>
+        <CloakerlyTrafficFilter>
+          {children}
+          <CookieConsent />
+        </CloakerlyTrafficFilter>
 
         {/* META PIXEL */}
         <Script id="meta-pixel" strategy="afterInteractive">
