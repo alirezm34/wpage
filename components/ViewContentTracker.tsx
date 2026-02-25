@@ -12,7 +12,7 @@ export default function ViewContentTracker() {
   const fired = useRef(false);
 
   useEffect(() => {
-    const target = document.getElementById('insights');
+    const target = document.getElementById('content');
     if (!target) return;
 
     const observer = new IntersectionObserver(

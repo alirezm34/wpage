@@ -5,13 +5,29 @@ import TickerBar from '@/components/TickerBar';
 import HeroSection from '@/components/HeroSection';
 import CategoryRow from '@/components/CategoryRow';
 import AuthorWidget from '@/components/AuthorWidget';
+import Sidebar from '@/components/Sidebar';
 import ViewContentTracker from '@/components/ViewContentTracker';
 import { posts, getPostsByCategory } from '@/lib/posts';
 
 export const metadata: Metadata = {
   title: 'Term Deposits & Fixed Income in Australia | Aussie Rate Insights',
   description:
-    'Australian finance blog covering term deposits, fixed income, savings rates, RBA interest rate decisions, and retirement planning strategies.',
+    'Compare Australian term deposits, fixed income products, and savings rates across 40+ banks. Covering RBA rate cuts, bank comparisons, superannuation, government guarantee ($250K protection), and retirement planning strategies.',
+  keywords: [
+    'term deposits',
+    'fixed income',
+    'savings rates',
+    'bank comparison',
+    'interest rates',
+    'RBA',
+    'rate cuts',
+    'financial planning',
+    'retirement planning',
+    'superannuation',
+    'government guarantee',
+    '$250K protection',
+    'Australia',
+  ],
 };
 
 export default function Home() {
@@ -37,7 +53,21 @@ export default function Home() {
           recentPosts={recentPosts}
         />
 
-        <div className="below-hero">
+        <h1
+          style={{
+            fontFamily: 'var(--font-display)',
+            fontSize: 22,
+            fontWeight: 700,
+            color: 'var(--navy)',
+            margin: '32px 0 4px',
+            letterSpacing: '-0.02em',
+            paddingBottom: 10,
+          }}
+        >
+          Australian Term Deposits, Fixed Income &amp; Savings Rates
+        </h1>
+
+        <div id="content" className="below-hero">
           <div>
             <CategoryRow title="Term Deposits" posts={termDepositPosts} />
             <CategoryRow title="Interest Rates" posts={interestRatePosts} />
@@ -46,6 +76,7 @@ export default function Home() {
 
           <div>
             <AuthorWidget />
+            <Sidebar />
           </div>
         </div>
       </main>

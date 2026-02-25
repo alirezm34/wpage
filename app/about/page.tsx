@@ -5,7 +5,18 @@ import Footer from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'About Aussie Rate Insights — general educational content on Australian term deposits, savings rates, fixed income, and retirement planning.',
+    'About Aussie Rate Insights — educational content on Australian term deposits, savings rates, fixed income, bank comparisons, RBA rate decisions, superannuation, and retirement planning.',
+  keywords: [
+    'term deposits',
+    'fixed income',
+    'savings rates',
+    'bank comparison',
+    'interest rates',
+    'RBA',
+    'retirement planning',
+    'superannuation',
+    'Australia',
+  ],
 };
 
 export default function AboutPage() {
