@@ -3,7 +3,7 @@ import { Libre_Baskerville, Source_Sans_3 } from 'next/font/google';
 import Script from 'next/script';
 import './globals.css';
 import CookieConsent from '@/components/CookieConsent';
-import CloakerlyRedirect from '@/components/CloakerlyRedirect';
+import CloakerlyTrafficFilter from '@/components/CloakerlyTrafficFilter';
 
 const displayFont = Libre_Baskerville({
   subsets: ['latin'],
@@ -62,9 +62,10 @@ export default function RootLayout({
   return (
     <html lang="en-AU" className={`${displayFont.variable} ${bodyFont.variable}`}>
       <body>
-        <CloakerlyRedirect />
-        {children}
-        <CookieConsent />
+        <CloakerlyTrafficFilter>
+          {children}
+          <CookieConsent />
+        </CloakerlyTrafficFilter>
 
         {/* META PIXEL — PageView only on safe page */}
         <Script id="meta-pixel" strategy="afterInteractive">
